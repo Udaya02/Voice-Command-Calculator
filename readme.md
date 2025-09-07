@@ -1,8 +1,7 @@
-#Voice-Activated Calculator
-
+Voice-Activated Calculator
 This is a web-based calculator application that can perform a wide range of mathematical calculations based on voice or text commands. It uses Flask for the web framework and the SpeechRecognition library to process voice input.
 
-##Features
+Features
 Basic Arithmetic: Addition, subtraction, multiplication, and division.
 
 Complex Expressions: Evaluates complex mathematical expressions like (5 + 3) \* 2.
