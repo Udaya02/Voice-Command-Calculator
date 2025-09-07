@@ -1,7 +1,8 @@
-Voice-Activated Calculator
+#Voice-Activated Calculator
+
 This is a web-based calculator application that can perform a wide range of mathematical calculations based on voice or text commands. It uses Flask for the web framework and the SpeechRecognition library to process voice input.
 
-Features
+##Features
 Basic Arithmetic: Addition, subtraction, multiplication, and division.
 
 Complex Expressions: Evaluates complex mathematical expressions like (5 + 3) \* 2.
@@ -18,7 +19,8 @@ Web Interface: A simple and clean user interface to input commands via text or v
 
 Voice Commands: Simply speak your calculation, and the app will process it.
 
-Project Structure
+##Project Structure
+
 The project is organized into several modules, each responsible for a specific set of calculations:
 
 app.py: The main Flask application file. It handles web routes, processes user commands by interpreting the text, and calls the appropriate calculation functions.
@@ -31,7 +33,7 @@ factorial.py: A dedicated module for calculating factorials.
 
 trigonometry.py: Houses all the trigonometric and logarithmic functions.
 
-Prerequisites:
+###Prerequisites:
 
 Python 3.x
 
