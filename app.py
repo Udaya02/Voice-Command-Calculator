@@ -37,15 +37,15 @@ def process_command(command):
             nums = list(map(str, re.findall(r"[-+]?\d*\.?\d+", command)))
             res = divide(nums)
             return f"Result is: {res}"
+        if "square root" in command:
+            res = find_sqrt(list(map(str, re.findall(r"[-+]?\d*\.?\d+", command))))
+            return f"Square root is: {res}"
         if "square" in command:
             res = square(list(map(str, re.findall(r"[-+]?\d*\.?\d+", command))))
             return f"Square is: {res}"
         if "cube of" in command:
             res = cube(list(map(str, re.findall(r"[-+]?\d*\.?\d+", command))))
             return f"Cube is {res}"
-        if "square root" in command:
-            res = find_sqrt(list(map(str, re.findall(r"[-+]?\d*\.?\d+", command))))
-            return f"Square root is: {res}"
         if "is to the power" in command or "power" in command or "^" in command:
             res = power(list(map(str, re.findall(r"[-+]?\d*\.?\d+", command))))
             return f"Result is {res}"
